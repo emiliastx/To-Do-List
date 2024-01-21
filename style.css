@@ -50,6 +50,7 @@ ul li {
   padding: 12px 8px 12px 50px;
   user-select: none;
   cursor: pointer;
+  position: relative;
 }
 ul li::before {
   content: "";
@@ -60,4 +61,13 @@ ul li::before {
   background-image: url(images/unchecked.png);
   background-size: cover;
   background-position: center;
+  top: 12px;
+  left: 8px;
+}
+ul li.checked {
+  color: blue;
+  text-decoration: line-through;
+}
+ul li.checked::before {
+  background-image: url(images/checked.png);
 }
