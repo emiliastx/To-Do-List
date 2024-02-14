@@ -1,4 +1,5 @@
 body {
+  font-family: "Lato", sans-serif;
   background-image: linear-gradient(rgb(197, 93, 24), rgb(240, 196, 52));
 }
 .container {
@@ -8,7 +9,7 @@ body {
 .to-do-app {
   width: 100%;
   max-width: 540px;
-  background-color: white;
+  background-color: rgb(255, 255, 255);
   margin: 100px auto 20px;
   padding: 40px 30px 70px;
   border-radius: 10px;
@@ -38,7 +39,7 @@ button {
   border: none;
   outline: none;
   padding: 16px 50px;
-  background: rgb(240, 216, 190);
+  background: rgb(250, 194, 134);
   color: white;
   font-size: 16px;
   cursor: pointer;
